@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting  Kafka producer...")
+	fmt.Println("Starting   Kafka producer...")
 	time.Sleep(5 * time.Second)
 
 	config := sarama.NewConfig()
